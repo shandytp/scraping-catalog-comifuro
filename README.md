@@ -17,6 +17,8 @@ Output Spreadsheet: [CF Catalog Spreadsheet](https://docs.google.com/spreadsheet
 - Karena web CF menggunakan React, jadi sangatlah painful untuk understanding struktur HTML
 - Ketika iseng tembak URL pakai Postman, turns out React ngebungkus all JSON data di `window.__INITIAL_STATE__`
 - Jadi cukup get tag tersebut, dan parsing jadi text dan maen Regex untuk ambil data JSON
+- Apabila ada data terbaru, cukup jalankan secara manual script `catalog_data_pipeline.py`
+- Awalnya kepikiran pakai AWS Lambda atau sejenisnya buat trigger / schedule script per hari nya. Tapi malas dan ribet setup nya, jadi cukup trigger manual di tiap hari nya.
 
 ### **Workflow**
 ---
