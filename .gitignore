@@ -1,1 +1,4 @@
 venv/
+.env
+cred/
+utils/__pycache__/
